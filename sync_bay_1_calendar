@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -x
+
+cd /config/scripts/calendar_sync
+
+pipenv run python sync_calendar.py --config ./config.yaml --bay-number 1 --local-calendar-id calendar.bay_1 2>&1

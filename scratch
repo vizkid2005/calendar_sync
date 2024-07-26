@@ -1,0 +1,15 @@
+curl -X GET \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI4NTQ2MGJiNThiYjk0ODBhOGYwYmRkZDQ2NTU1ZTJmOSIsImlhdCI6MTcwOTk3NDAxOSwiZXhwIjoyMDI1MzM0MDE5fQ.byIwgpklpL68otSxagbUzRPALjU9b4h5KUHc7V0VOis"\
+  "http://homeassistant.local:8123/api/calendars/calendar.bay_1?start=2024-03-10T00:00:00Z&end=2024-03-10T23:59:59Z"
+
+
+       -d '{ "entity_id" : "calendar.bay_1", "start_date_time" : "2024-03-09 00:00:00", "end_date_time": "2024-03-09 23:59:00" }' \
+
+
+    Localhost token - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxZWJlZGYyYTc0MDM0NDZhYWY4NWMzY2QwODYwMTI0NyIsImlhdCI6MTcxMDAyNjQ4NiwiZXhwIjoyMDI1Mzg2NDg2fQ.RGu0cOuhnoVBhpQ9a1uiE0vqc-fc3bB20-E9xgp9cb8
+
+    Home pi - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI4NTQ2MGJiNThiYjk0ODBhOGYwYmRkZDQ2NTU1ZTJmOSIsImlhdCI6MTcwOTk3NDAxOSwiZXhwIjoyMDI1MzM0MDE5fQ.byIwgpklpL68otSxagbUzRPALjU9b4h5KUHc7V0VOis
+
+    https://drive.usercontent.google.com/download?id=1sZinYoS8hIDzRF40SYyKncPp62Mm0hKb&export=download&authuser=0&confirm=t&uuid=4f9b0118-37fc-4706-90cb-1d5a6c49bdeb&at=APZUnTWSvMuPr7k6jHNoR56LrbRE:1710180983590
+
+    "https://drive.google.com/uc?export=download&id=1sZinYoS8hIDzRF40SYyKncPp62Mm0hKb"

@@ -107,12 +107,12 @@ def main():
 
     token = Credentials(
     token=config_data.get('google_access_token'),
-    refresh_token=config_data.get('google_refresh_token'),
-    client_id=config_data.get('google_client_id'),
-    client_secret=config_data.get('google_client_secret'),
-    scopes=["https://www.googleapis.com/auth/calendar.readonly", "https://www.googleapis.com/auth/calendar.events.readonly"],
-    token_uri='https://oauth2.googleapis.com/token'
-)
+        refresh_token=config_data.get('google_refresh_token'),
+        client_id=config_data.get('google_client_id'),
+        client_secret=config_data.get('google_client_secret'),
+        scopes=["https://www.googleapis.com/auth/calendar.readonly", "https://www.googleapis.com/auth/calendar.events.readonly"],
+        token_uri='https://oauth2.googleapis.com/token'
+    )
     google_calendar = GoogleCalendar("primary",credentials=token)
     start_time = now
     end_time = datetime(year=now.year, month=now.month, day=now.day, hour=23, minute=59, second=0)
